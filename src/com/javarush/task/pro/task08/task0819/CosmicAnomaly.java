@@ -2,7 +2,7 @@ package com.javarush.task.pro.task08.task0819;
 
 import java.util.Random;
 
-public class  {
+public class  CosmicAnomaly {
     private static final int rightNumber = new Random().nextInt(1000);
 
     public static int lowerBound = 0;
@@ -25,7 +25,6 @@ public class  {
             System.out.println("Правильно!");
             return attempt;
         }
-        CosmicAnomaly
         System.out.printf("Неа :( Новый диапазон: (%d;%d)%n%n", lowerBound, upperBound);
         return result;
     }

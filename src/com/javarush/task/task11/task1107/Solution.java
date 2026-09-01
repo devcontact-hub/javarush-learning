@@ -5,13 +5,13 @@ package com.javarush.task.task11.task1107;
 */
 
 public class Solution {
-    public static void main(String[] args) {weight
+    public static void main(String[] args) {
     }
 
     public class Cat {
         private String name;
         private int age;
-        public int ;
+        public int weight;
 
         public Cat(String name, int age, int weight) {
             this.name = name;

@@ -25,7 +25,7 @@ public class Solution {
 
     public static List<String> decryptSecretMessage() {
         //напишите тут ваш код
-         <>();
+         List<String> correctWords = new ArrayList<>();
 
         for (int i = 0; i < secretMessage.size(); i += 3) {
             String part = secretMessage.get(i);
